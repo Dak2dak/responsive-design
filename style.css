@@ -95,7 +95,7 @@ p {
     margin-top: 10px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
 
     header, .menutoggle ul, section {
         padding: 0 10px;
