@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header, .menutoggle ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.menutoggle ul {
+    list-style: none;
+    gap: 30px;
+}
+
+.menutoggle ul li a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.logo span {
+    color: orange;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn-reserve {
+    text-decoration: none;
+    color: #000;
+}
+
+section {
+    padding: 0 100px;
+}
+
+
+.banniere{
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/pageheader-banner.jpg);
+    background-size: cover;
+}
+
+.contenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_box {
+    gap: 50px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.btn1 {
+    background-color: orange;
+    text-decoration: none;
+    width: 200px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.btn2 {
+    background-color: blue;
+    color: #fff;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+h2, p {
+    color: #fff;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 375   px) {
+
+    header, .menutoggle ul, section {
+        padding: 0 10px;
+    }
+
+    .contenu p {
+        text-align: justify;
+    }
+
+    .button_box {
+        display: block;
+    }
+
+    .btn1 {
+        display: block;
+    }
+
+    .btn2 {
+        display: block;
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    .menutoggle {
+        display: none;
+    }
+
+  }
+
+
+
+
